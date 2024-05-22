@@ -6,12 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
+
+    <!-- Found some nice CSS for non ugly skinny headers -->
     <style>
         body {
             background-color: #c7fff8;
         }
         header, nav, main, footer {
-            padding: 1em;
+            padding: 1em;               
             margin: 1em;
         }
         header {
@@ -32,14 +34,14 @@
     </header>
 
     <nav>
-        <ul>
+        <ul>    <!-- Navigation definitions -->
             <li><a href="#introduction">Introduction</a></li>
             <li><a href="#audio">Audio Explanation</a></li>
             <li><a href="#video">Video Explanation</a></li>
         </ul>
     </nav>
 
-    <main>
+    <main>    <!-- Navigate here! -->
         <article id="introduction">
             <section>
                 <h2>Introduction to the Water Cycle</h2>
@@ -50,23 +52,23 @@
             </section>
         </article>
 
-        <article id="audio">
+        <article id="audio">    <!-- Navigate here! -->
             <section>
                 <h2>Audio Explanation</h2>
                 <p>Please engage in a recording explaining the concept of the water cycle.</p>
                 <audio controls>
-                    <source src="watercycle.mp3" type="audio/mpeg">
+                    <source src="watercycle.mp3" type="audio/mpeg">   <!-- Audio embed from directory -->
                     Your browser does not support the audio element.
                 </audio>
             </section>
         </article>
 
-        <article id="video">
+        <article id="video">    <!-- Navigate here! -->
             <section>
                 <h2>Video Explanation</h2>
                 <p>If you still find yourself confused, ponder this visual explanation of the water cycle.</p>
-                <video width="600" height="400" controls>
-                    <source src="cycle.mp4" type="video/mp4">
+                <video width="600" height="350" controls>
+                    <source src="cycle.mp4" type="video/mp4">   <!-- Video embed from directory -->
                     Your browser does not support the video tag.
                 </video>
             </section>
